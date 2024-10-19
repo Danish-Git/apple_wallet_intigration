@@ -42,6 +42,14 @@ target 'Runner'
   pod 'PassKit' 
 end
 ```
+- Or
+
+Add `Wallet` Capabilities in the `Signing & Capabilities` in your XCode to include the **PassKit** framework:
+
+<img width="600" height="400" alt="Screenshot 2024-10-19 at 4 06 29 PM" src="https://github.com/user-attachments/assets/5cc42f43-b66a-4cc5-a57b-c7926b5e2891">
+
+
+
 Then, run `pod install` in the `ios` directory:
 ```
 cd ios 
