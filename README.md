@@ -2,6 +2,14 @@
 
 This repository demonstrates how to integrate **Apple Wallet passes** (such as event tickets, boarding passes, and coupons) into a Flutter app using platform channels to communicate between Flutter and native iOS code. Since Flutter doesn’t provide native support for Apple Wallet, we implement platform-specific functionality for iOS via the **PassKit** framework.
 
+## Video Demonstration
+
+Below is a video demonstrating the functionality after successfully implementing the Apple Wallet integration.
+
+<img width="200" alt="Screenshot 2024-09-13 at 4 39 03 PM" src="https://github.com/user-attachments/assets/1c7591ed-2050-48bf-ba4a-2a7178aad1ae">
+
+> This video showcases adding a pass to Apple Wallet, prompting the user to accept the pass, and confirming that the pass is successfully added.
+
 ## Features
 
 - Add `.pkpass` files to Apple Wallet from within the Flutter app.
@@ -189,7 +197,6 @@ flutter run
 
 ## Notes
 
--   The `.pkpass` file must be hosted on a valid HTTPS server or available locally.
 -   The `.pkpass` file must be hosted on a valid HTTPS server or available locally.
 -   Testing should be done on a real device, as Apple Wallet features are not available on the simulator.
 -   Ensure your app has the necessary entitlements and permissions to use Apple Wallet.
