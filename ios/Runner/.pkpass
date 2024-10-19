@@ -1,0 +1,14 @@
+{
+  "description": "Customer ID Card",
+  "formatVersion": 1,
+  "organizationName": "Autviz",
+  "passTypeIdentifier": "pass.com.autviz.idcard",
+  "serialNumber": "123456",
+  "teamIdentifier": "TEAM_IDENTIFIER",
+  "relevantDate": "2024-10-14T10:00-08:00",
+  "barcode": {
+    "message": "123456789",
+    "format": "PKBarcodeFormatQR",
+    "messageEncoding": "iso-8859-1"
+  }
+}
