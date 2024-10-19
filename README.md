@@ -8,7 +8,7 @@ Below is a video demonstrating the functionality after successfully implementing
 
 https://github.com/user-attachments/assets/1c7591ed-2050-48bf-ba4a-2a7178aad1ae
 
-> This video showcases adding a pass to Apple Wallet, prompting the user to accept the pass, and confirming that the pass is successfully added.
+> This video showcases adding a pass to Apple Wallet, prompting the user to accept the pass.
 
 ## Features
 
