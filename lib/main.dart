@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-import 'AppleWalletService.dart';
+import 'apple_wallet_service.dart';
 
 void main() {
   runApp(const MyApp());
