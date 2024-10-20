@@ -206,5 +206,4 @@ flutter run
 ## Notes
 
 -   The `.pkpass` file must be hosted on a valid HTTPS server or available locally.
--   Testing should be done on a real device, as Apple Wallet features are not available on the simulator.
 -   Ensure your app has the necessary entitlements and permissions to use Apple Wallet.
