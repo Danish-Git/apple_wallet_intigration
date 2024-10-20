@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/services.dart';
 
 class AppleWalletService {
@@ -7,7 +8,7 @@ class AppleWalletService {
     try {
       await platform.invokeMethod('addPassToWallet', {"passUrl": passUrl});
     } on PlatformException catch (e) {
-      print("Failed to add pass to Wallet: '${e.message}'.");
+      debugPrint("Failed to add pass to Wallet: '${e.message}'.");
     }
   }
 }
